@@ -1,8 +1,9 @@
 {
   "name": "node",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "node server.js",
@@ -13,7 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "mongodb": "^5.5.0"
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
