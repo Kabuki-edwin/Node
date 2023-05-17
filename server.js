@@ -19,3 +19,8 @@ app.listen(3000, () => {
 
 mongoose
 .connect('mongodb+srv://Admin:fez.co134205<password>@fezapi.mowli0w.mongodb.net/Node-API?retryWrites=true&w=majority')
+.then(() => {
+    console.log('connected to MongoDB')
+}).catch((error) => {
+    console.log('error')
+})
